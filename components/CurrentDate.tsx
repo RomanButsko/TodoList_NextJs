@@ -4,7 +4,9 @@ const CurrentDate = ()=> {
     const current = new Date();
     const date = `${day[current.getDay()]}, ${current.getDate()} ${months[current.getMonth()+1]}`;
     return <>
+        <div className='text-[30px] text-[#B864F7] '>
         {date}
+        </div>
     </>
     
 }
